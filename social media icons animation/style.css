@@ -1,0 +1,176 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  background: #131313;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+
+#social {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#social ul {
+  text-align: center;
+  padding-left: 0px;
+}
+
+#social li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#social li:first-child {
+  margin-left: 0px;
+}
+
+#social li:last-child {
+  margin-right: 0px;
+}
+
+.facebook {
+  width: 50px;
+  height: 50px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.facebook .border {
+  background: transparent;
+  outline: none;
+  color: #3b5998;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.facebook .border:hover {
+  background: #3b5998;
+  border-color: #436aaf;
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.fa.fa-facebook {
+  font-size: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.twitter .border {
+  background: transparent;
+  outline: none;
+  color: #00aced;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.twitter .border:hover {
+  background: #00aced;
+  border-color: #72c6e6;
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.fa.fa-twitter {
+  font-size: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.whatsapp {
+  width: 50px;
+  height: 50px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.whatsapp .border {
+  background: transparent;
+  outline: none;
+  color: #25d366;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.whatsapp .border:hover {
+  background: #25d366;
+  border-color: #128c7e;
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.fa.fa-whatsapp {
+  font-size: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.google-plus {
+  width: 50px;
+  height: 50px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.google-plus .border {
+  background: transparent;
+  outline: none;
+  color: #db4a39;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+.google-plus .border:hover {
+  background: #db4a39;
+  border-color: #ef3a25;
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.fa.fa-google-plus {
+  font-size: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
